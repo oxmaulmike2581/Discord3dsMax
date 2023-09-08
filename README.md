@@ -24,17 +24,4 @@ Add Discord Rich Presence Features to your version of 3ds Max
 * <a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net452" target="_blank">.NET Framework 4.5.2</a> or newer
 
 ## Building
-<ol>
-  <li>Go to <a href="https://discord.com/developers/applications">Discord Developer Portal</a> and create a new application</li>
-  <li>Use the following information in the fields:
-    <ul>
-      <li><strong>Name</strong>: 3ds Max <code>{ver}</code> &ndash; where "ver" is a year of your 3ds Max, e.g. 2024.</li>
-      <li><strong>Description</strong>: Add Discord Rich Presence Features to 3ds Max <code>{ver}</code></li>
-    </ul>
-  </li>
-  <li>Copy <strong>Application ID</strong> and add it to <code>AppIDs</code> enumeration in <code>Discord.cs</code> file, following existing syntax.</li>
-  <li>Upload a <code>images\XXXX\image_large.png</code> file corresponding to selected years of your 3ds Max version as <strong>App Icon</strong>.</li>
-  <li>Go to <strong>Rich Presence</strong> tab and upload <code>images\XXXX\image_large.png</code> file two times &ndash; as cover image and as asset with <code>image_large</code> name.</li>
-  <li>Insert your previously added Application ID to <code>Discord.cs</code> file in initialization call, like that:<br /><code>client = new DiscordRpcClient(AppIDs.<strong>MAX_2024</strong>.ToString());</code></li>
-  <li>Build it with <strong>"Release"</strong> configuration</li>
-</ol>
+* Visit <a href="BUILDING.md">BUILDING.md</a> for more details.
