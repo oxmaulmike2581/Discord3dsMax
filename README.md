@@ -15,6 +15,7 @@ Add Discord Rich Presence Features to your version of 3ds Max
 ## Notes
 * 3ds Max are usually installed in: `C:\Program Files\Autodesk\3ds Max XXXX`, where XXXX - your Max version.<br />If you're installed it in another folder, then you should search it by myself.
 * The main difference in each folder is a file `Discord3dsMax.dll`. All other files are identical for all versions.<br />You can install the wrong version of the plugin, e.g. install version for Max 2024 to Max 2015 but then everyone will see that you're using Max 2024 when you're use Max 2015.
+* Based on <a href="https://github.com/Lachee/discord-rpc-csharp">discord-rpc-csharp</a> library.
 
 ## Installation
 * Copy the files from folder which corresponding your 3ds Max version into 3ds Max installation folder with confirmation of merging/replacing.
