@@ -15,8 +15,8 @@
 
 ### Part 2: Editing the sources
 <ol>
-  <li>Copy <strong>Application ID</strong> from Discord Developer Portal <em>(can be found in "General Information" tab)</em> and add it to <code>AppIDs</code> enumeration in <code>Discord.cs</code> file, following existing syntax.</li>
-  <li>Insert your previously added Application ID to <code>Discord.cs</code> file in initialization call, like that:<br /><code>client = new DiscordRpcClient(AppIDs.<strong>MAX_2024</strong>.ToString());</code></li>
+  <li>Copy <strong>Application ID</strong> from Discord Developer Portal <em>(can be found in "General Information" tab)</em>.</li>
+  <li>Insert it to <code>Discord.cs</code> file in initialization call, like that:<br /><code>client = new DiscordRpcClient("1234567890");</code></li>
   <li>Build it with <strong>"Release"</strong> configuration</li>
 </ol>
 
