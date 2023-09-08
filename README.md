@@ -1,5 +1,6 @@
 # Discord3dsMax
-Add Discord Rich Presence Features to your version of 3ds Max
+Add Discord Rich Presence Features to your version of 3ds Max<br /><br />
+<img src="screenshot.png" />
 
 ## Features
 * Shows current scene name in Discord Rich Presence details with real-time updating.
