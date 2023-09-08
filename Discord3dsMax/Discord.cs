@@ -11,8 +11,7 @@ namespace Discord3dsMax
 		{
 			// enter Application ID here
 			// it's not safe to store id here but I'm too lazy to move it to the config file
-
-			client = new DiscordRpcClient(AppIDs.MAX_2024.ToString());
+			client = new DiscordRpcClient("enter_your_appid_here");
 			presence = new RichPresence()
 			{
 				Assets = new Assets()
@@ -48,14 +47,6 @@ namespace Discord3dsMax
 			client.OnPresenceUpdate += (sender, e) => {};
 			client.ClearPresence();
 			client.SetPresence(presence);
-		}
-
-		private enum AppIDs : long
-		{
-			MAX_2015 = 988215076626509824,
-			MAX_2020 = 988080926414209084,
-			MAX_2023 = 982293883306270790,
-			MAX_2024 = 1149627242478043157
 		}
 	}
 }
